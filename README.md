@@ -2,7 +2,7 @@
 
 **Interactive Data Analysis Tool for Understanding Group Behavior Patterns**
 
-**Project Overview:** Developed an interactive R Shiny web application to analyze social behavior patterns from RFID tracking data, enabling users to explore complex network relationships without requiring advanced coding skills. Try the app (https://prashers.shinyapps.io/datascishinyapp/) using the practice datasets found in this GitHub repository. 
+**Project Overview:** Developed an interactive R Shiny web application to analyze social behavior patterns from Radio Frequency IDentification (RFID) tracking data, enabling users to explore complex network relationships without requiring advanced coding skills. Try the app (https://prashers.shinyapps.io/datascishinyapp/) using the practice datasets found in this GitHub repository. 
 
 **Business Problem Solved:** Traditional data analysis methods for understanding group interactions and space utilization were too complex for end users. This tool democratizes access to sophisticated social network analysis, allowing stakeholders to quickly derive actionable insights from location-tracking data.
 
