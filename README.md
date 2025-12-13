@@ -1,23 +1,36 @@
 # FreshmanBioShiny
 
-**Interactive Data Analysis Tool for Understanding Group Behavior Patterns**
+**Interactive Network Analytics Dashboard**
 
-**Project Overview:** Developed an interactive R Shiny web application to analyze social behavior patterns from Radio Frequency IDentification (RFID) tracking data, enabling users to explore complex network relationships without requiring advanced coding skills. Try the app (https://prashers.shinyapps.io/datascishinyapp/) using the practice datasets found in this GitHub repository. 
+**Overview**
+This project is an interactive R Shiny web application for exploring group interaction patterns using Radio Frequency Identification (RFID) location-tracking data. The app allows users to investigate social network relationships through a point-and-click interface, without requiring advanced coding skills.
 
-**Business Problem Solved:** Traditional data analysis methods for understanding group interactions and space utilization were too complex for end users. This tool democratizes access to sophisticated social network analysis, allowing stakeholders to quickly derive actionable insights from location-tracking data.
+👉 Try the app: https://prashers.shinyapps.io/datascishinyapp/
+Practice datasets are included in this repository.
 
-**Key Features:**
-- Data Integration: Automated merging of RFID detection data with individual identifiers
-- Interactive Visualization: Dynamic social network diagrams showing relationship strength and frequency
-- Customizable Parameters: Time-window slider allowing users to adjust association criteria
-- Quantitative Metrics: Automated calculation of network statistics (degree, strength) for each individual
-- Export Functionality: CSV download capability for further analysis and reporting
+**Problem Addressed**
+Analyzing interaction and movement data typically requires custom scripts and technical expertise, making it slow and inaccessible for many stakeholders. This tool removes that barrier by providing a self-service interface for exploring network relationships and interaction patterns directly from tracking data.
 
-**Technical Implementation:** Built using R Shiny framework with reactive programming for real-time data exploration. Handles temporal datasets and computes network metrics on-demand.
+**What This App Does**
+- Automates data integration by merging RFID detections with individual identifiers
+- Visualizes interaction networks with dynamic, interactive network graphs
+- Allows parameter tuning via adjustable time windows to define interactions
+- Computes network metrics (e.g., degree, interaction strength) in real time
+- Supports data export with CSV downloads for reporting and downstream analysis
 
-**Impact:** Enables non-technical users to perform sophisticated behavioral analysis, reducing time-to-insight from hours of coding to minutes of interactive exploration. The tool's flexibility makes it applicable to various use cases involving location-based interaction data. It currently **serves 950+ users annually**.
+**Technical Implementation**
+The application is built using R Shiny and reactive programming to support real-time data exploration. It processes temporal tracking data, dynamically updates visualizations, and calculates network metrics on demand based on user-selected parameters.
 
-**Skills Demonstrated:** R Programming, Shiny Web Development, Data Visualization, Network Analysis, User Experience Design, Interactive Dashboard Development
+**Impact:**
+The app enables non-technical users to explore complex interaction data in minutes rather than hours of manual coding. It was originally developed for a data science module in undergraduate biology labs, requiring intuitive design for users with little to no programming experience, and is now **used by 950+ users annually**.
+
+**Skills Demonstrated**
+- R Programming
+- Shiny Web Application Development
+- Data Visualization
+- Network Analysis
+- Interactive Dashboard Design
+- User-Centered Analytics
 
 
 https://github.com/user-attachments/assets/1061ac27-e2df-475b-baf6-e00cf191425e
