@@ -1,12 +1,15 @@
 # Interactive Network Analytics Dashboard
 
 **Overview**
+
 This project is an interactive R Shiny web application for exploring group interaction patterns using Radio Frequency Identification (RFID) location-tracking data. The app allows users to investigate social network relationships through a point-and-click interface, without requiring advanced coding skills.
 
 👉 Try the app: https://prashers.shinyapps.io/datascishinyapp/
+
 Practice datasets are included in this repository.
 
 **Problem Addressed**
+
 Analyzing interaction and movement data typically requires custom scripts and technical expertise, making it slow and inaccessible for many stakeholders. This tool removes that barrier by providing a self-service interface for exploring network relationships and interaction patterns directly from tracking data.
 
 **What This App Does**
@@ -17,9 +20,11 @@ Analyzing interaction and movement data typically requires custom scripts and te
 - Supports data export with CSV downloads for reporting and downstream analysis
 
 **Technical Implementation**
+
 The application is built using R Shiny and reactive programming to support real-time data exploration. It processes temporal tracking data, dynamically updates visualizations, and calculates network metrics on demand based on user-selected parameters.
 
-**Impact:**
+**Impact**
+
 The app enables non-technical users to explore complex interaction data in minutes rather than hours of manual coding. It was originally developed for a data science module in undergraduate biology labs, requiring intuitive design for users with little to no programming experience, and is now **used by 950+ users annually**.
 
 **Skills Demonstrated**
