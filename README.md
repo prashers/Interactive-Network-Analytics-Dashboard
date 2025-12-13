@@ -1,6 +1,4 @@
-# FreshmanBioShiny
-
-**Interactive Network Analytics Dashboard**
+# Interactive Network Analytics Dashboard
 
 **Overview**
 This project is an interactive R Shiny web application for exploring group interaction patterns using Radio Frequency Identification (RFID) location-tracking data. The app allows users to investigate social network relationships through a point-and-click interface, without requiring advanced coding skills.
