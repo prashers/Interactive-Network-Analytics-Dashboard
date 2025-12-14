@@ -1,5 +1,9 @@
 # Interactive Network Analytics Dashboard
 
+## TL;DR
+
+This project is an interactive R Shiny analytics dashboard that enables non-technical users to explore group interaction patterns from event-based tracking data. It automates data integration, computes network metrics on demand, and provides dynamic visualizations, reducing analysis time from hours of coding to minutes of interactive exploration for 950+ users annually.
+
 ## Overview
 
 This project is an interactive R Shiny web application for exploring group interaction patterns using Radio Frequency Identification (RFID) location-tracking data. The app allows users to investigate social network relationships through a point-and-click interface, without requiring advanced coding skills.
